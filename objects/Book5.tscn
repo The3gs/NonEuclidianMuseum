@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://objects/books/book5.tscn" type="PackedScene" id=1]
+[ext_resource path="res://objects/Object.gd" type="Script" id=2]
+
+[sub_resource type="BoxShape" id=1]
+extents = Vector3( 0.0757999, 0.310223, 0.273056 )
+
+[node name="Book5" type="RigidBody"]
+script = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.00703338, -0.103778 )
+shape = SubResource( 1 )
+
+[node name="Mesh" parent="." instance=ExtResource( 1 )]
+transform = Transform( 0, -8.00697e-07, -0.769092, 0.000186975, -0.769092, 8.00697e-07, -0.769092, -0.000186975, 0, 0, 0, 0 )

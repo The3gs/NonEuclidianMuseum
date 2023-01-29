@@ -1,0 +1,60 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://DebugGUI.gd" type="Script" id=1]
+[ext_resource path="res://DebugGUI.tres" type="Theme" id=2]
+
+[node name="DebugGUI" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+theme = ExtResource( 2 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CurrentLocation" type="Label" parent="."]
+margin_right = 40.0
+margin_bottom = 14.0
+text = " 0  1  2  3
+ 4  5  6  7
+ 8  9 10 11
+12 13 14 15"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="DebugObject" type="VBoxContainer" parent="."]
+anchor_top = 1.0
+anchor_bottom = 1.0
+grow_vertical = 0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="DebugObject"]
+margin_right = 100.0
+margin_bottom = 19.0
+text = "X Position"
+
+[node name="HSlider" type="HSlider" parent="DebugObject"]
+margin_top = 23.0
+margin_right = 100.0
+margin_bottom = 39.0
+max_value = 1.0
+step = 0.01
+value = 0.5
+
+[node name="Label2" type="Label" parent="DebugObject"]
+margin_top = 43.0
+margin_right = 100.0
+margin_bottom = 62.0
+text = "Y Position"
+
+[node name="HSlider2" type="HSlider" parent="DebugObject"]
+margin_top = 66.0
+margin_right = 100.0
+margin_bottom = 82.0
+max_value = 1.0
+step = 0.01
+value = 0.5

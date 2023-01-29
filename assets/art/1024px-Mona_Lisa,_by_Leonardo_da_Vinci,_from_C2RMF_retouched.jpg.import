@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/1024px-Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg-f17d9b33f9104ac108f2636c8a8934af.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://assets/art/1024px-Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg"
+dest_files=[ "res://.import/1024px-Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg-f17d9b33f9104ac108f2636c8a8934af.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0
